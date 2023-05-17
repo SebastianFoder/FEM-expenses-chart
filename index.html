@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <div class="component">
+    <header>
+      <div class="balance">
+        <h5>My balance</h5>
+        <h3>$921.48</h3>
+      </div>
+      <div class="card-logo">
+        <img src="images/logo.svg" alt="">
+      </div>
+    </header>
+    <main>
+      <h2>Spending - Last 7 days</h2>
+      <div class="chart-block">
+        <div class="chart" id="chart">
+          <div class="chart-bar" id="bar1"></div>
+          <div class="chart-bar" id="bar2"></div>
+          <div class="chart-bar" id="bar3"></div>
+          <div class="chart-bar" id="bar4"></div>
+          <div class="chart-bar" id="bar5"></div>
+          <div class="chart-bar" id="bar6"></div>
+          <div class="chart-bar" id="bar7"></div>
+        </div>
+        <div class="chart-labels">
+          <div class="chart-label">Mon</div>
+          <div class="chart-label">Tue</div>
+          <div class="chart-label">Wed</div>
+          <div class="chart-label">Thu</div>
+          <div class="chart-label">Fri</div>
+          <div class="chart-label">Sat</div>
+          <div class="chart-label">Sun</div>
+        </div>
+      </div>      
+      <footer>
+        <div class="line"></div>
+        <div class="total">
+          <h5>Total this month</h5>
+          <h3>$478.33</h3>
+        </div>
+        <div class="improvement">
+          <h4>+2.4%</h4>
+          <h5>from last month</h5>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
